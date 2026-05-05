@@ -1,0 +1,23 @@
+idade = int(input('Digite a idade: '))  # 19
+# > maior, < menor, >=, <=, ==, !=
+if idade >= 18:
+    print('Você é adulto')
+else:
+    print('Você é menor de idade')
+# ------------------------------------
+
+# Classificação por Pontos
+pontos = int(input('Informe os pontos: '))
+if pontos >= 100:
+    total = pontos + 10
+    print(f'Excelente! Agora você têm {total} pontos')
+elif pontos >= 50:
+    total = pontos + 5
+    print(f'Bom desempenho. Você têm {total} pontos')
+elif pontos >= 30:
+    total = pontos + 2
+    print(f'Dá para o gasto. Você têm {total} pontos')
+else:
+    print(f'Treine mais. Pontuação {pontos} pontos')
+
+print('Fim!')
